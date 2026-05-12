@@ -1,84 +1,142 @@
 # OrganicZation 🌳
 
-> **Cultive sua mente. [cite_start]Floresça o planeta.** [cite: 2]
+> **Cultive sua mente. Floresça o planeta.**
 
-[cite_start]O **OrganicZation** é uma plataforma acadêmica sustentável projetada para transformar produtividade e disciplina em impacto visual e ecológico[cite: 3]. [cite_start]Ao contrário de ferramentas tradicionais, o projeto utiliza **gamificação emocional** para criar um vínculo entre a evolução acadêmica do usuário e o crescimento de um ecossistema digital vivo[cite: 6, 7].
+O **OrganicZation** é uma plataforma acadêmica sustentável criada para transformar produtividade e disciplina em impacto visual e ecológico.
 
----
-
-## 🚀 Diferenciais do Projeto
-
-* **UX Emocional:** Interface focada em retenção através da evolução visual do ecossistema[cite: 15, 19].
-* [cite_start]**Gamificação Sustentável:** O progresso nas tarefas e sessões de foco alimenta o crescimento de uma árvore virtual[cite: 13, 16, 33].
-* [cite_start]**Design Tech Minimal:** Estética moderna baseada no conceito *Organic Cyber Minimalism*[cite: 18, 36].
-* **Foco Acadêmico:** Centralização de calendário, tarefas e estatísticas de produtividade em um único ambiente imersivo[cite: 12, 28].
+Diferente de ferramentas tradicionais, o projeto utiliza **gamificação emocional** para criar uma conexão entre a evolução acadêmica do usuário e o crescimento de um ecossistema digital vivo.
 
 ---
 
-## 🛠️ Stack Tecnológica
+# 🚀 Diferenciais do Projeto
 
-O projeto foi construído utilizando uma arquitetura moderna e escalável:
+### 🌱 UX Emocional
+Interface focada em retenção através da evolução visual do ecossistema.
 
-* [cite_start]**Frontend:** React, Vite, TailwindCSS[cite: 21].
-* [cite_start]**Backend:** Node.js, Express[cite: 22].
-* **Banco de Dados:** PostgreSQL[cite: 23].
-* [cite_start]**Arquitetura:** MVC (Model-View-Controller) com camadas de Services e Repositories[cite: 25].
-* [cite_start]**Autenticação:** JWT (JSON Web Token)[cite: 24].
+### 🎮 Gamificação Sustentável
+O progresso em tarefas e sessões de foco alimenta o crescimento de uma árvore virtual.
 
----
+### ✨ Design Tech Minimal
+Estética moderna baseada no conceito **Organic Cyber Minimalism**.
 
-## 📦 Estrutura do MVP (Minimum Viable Product)
-
-A versão inicial foca nas funcionalidades essenciais para a retenção do usuário:
-
-1.  [cite_start]**Dashboard Acadêmico:** Visão geral do progresso e tarefas[cite: 28].
-2.  [cite_start]**Gestão de Foco:** Sessões de foco integradas ao crescimento da árvore[cite: 31, 33].
-3.  [cite_start]**Sistema de Streaks:** Incentivo à consistência diária[cite: 32, 48].
-4.  [cite_start]**Calendário e Tarefas:** Organização centralizada de obrigações acadêmicas[cite: 29, 30].
-5.  [cite_start]**Estatísticas:** Dados detalhados de evolução e produtividade[cite: 34].
+### 📚 Foco Acadêmico
+Centralização de calendário, tarefas e estatísticas de produtividade em um único ambiente imersivo.
 
 ---
 
-## 🎨 Design System
+# 🛠️ Stack Tecnológica
 
-[cite_start]A identidade visual segue a tendência *Tech Ambient*[cite: 36]:
+O projeto foi desenvolvido utilizando uma arquitetura moderna e escalável:
 
-* **Paleta de Cores:**
-    * [cite_start]Fundo: `#0D1117` (Preto Profundo) e `#161B22` (Grafite)[cite: 37, 38].
-    * [cite_start]Destaques: `#2ECC71` (Verde Orgânico) e `#81C784` (Verde Suave)[cite: 39, 41].
-    * Texto: `#E6EDF3` (Branco Gelo)[cite: 42].
-* [cite_start]**Tipografia:** Sora e Inter[cite: 43].
+- **Frontend:** React, Vite e TailwindCSS
+- **Backend:** Node.js e Express
+- **Banco de Dados:** PostgreSQL
+- **Arquitetura:** MVC com camadas de Services e Repositories
+- **Autenticação:** JWT (JSON Web Token)
 
 ---
 
-## 🔒 Segurança
+# 📦 Estrutura do MVP
+
+A versão inicial do projeto foca nas funcionalidades essenciais para retenção e experiência do usuário:
+
+## 1. Dashboard Acadêmico
+- Visão geral do progresso e tarefas.
+
+## 2. Gestão de Foco
+- Sessões de foco integradas ao crescimento da árvore.
+
+## 3. Sistema de Streaks
+- Incentivo à consistência diária.
+
+## 4. Calendário e Tarefas
+- Organização centralizada das obrigações acadêmicas.
+
+## 5. Estatísticas de Produtividade
+- Dados detalhados de evolução e desempenho.
+
+---
+
+# 🎨 Design System
+
+A identidade visual segue a tendência **Tech Ambient**.
+
+## 🎨 Paleta de Cores
+
+| Elemento | Cor | Hex |
+|---|---|---|
+| Fundo Primário | Preto Profundo | `#0D1117` |
+| Fundo Secundário | Grafite | `#161B22` |
+| Destaque Principal | Verde Orgânico | `#2ECC71` |
+| Destaque Secundário | Verde Suave | `#81C784` |
+| Texto | Branco Gelo | `#E6EDF3` |
+
+## ✍️ Tipografia
+
+- **Sora**
+- **Inter**
+
+---
+
+# 🔒 Segurança
 
 Implementações focadas na integridade dos dados e proteção do usuário:
 
-* [cite_start]Criptografia de senhas com **bcrypt**[cite: 53].
-* Proteção contra **SQL Injection** e sanitização de inputs[cite: 56, 57].
-* [cite_start]Controle de sessão e **Rate Limiting** para APIs[cite: 58, 59].
+- Criptografia de senhas com **bcrypt**
+- Proteção contra **SQL Injection**
+- Sanitização de inputs
+- Controle de sessão
+- **Rate Limiting** para APIs
 
 ---
 
-## 🔮 Roadmap Futuro
+# 🔮 Roadmap Futuro
 
-- [ ] [cite_start]Aplicativo Mobile[cite: 61].
-- [ ] [cite_start]Integração com Google Calendar[cite: 62].
-- [ ] [cite_start]IA para priorização inteligente de tarefas[cite: 63].
-- [ ] [cite_start]Sistema coletivo de reflorestamento (Impacto Real)[cite: 64].
-- [ ] [cite_start]Biomas personalizáveis e Focus Rooms[cite: 65, 67].
+- [ ] Aplicativo Mobile
+- [ ] Integração com Google Calendar
+- [ ] IA para priorização inteligente de tarefas
+- [ ] Sistema coletivo de reflorestamento (Impacto Real)
+- [ ] Biomas personalizáveis
+- [ ] Focus Rooms
 
 ---
 
-## 📈 Comparação de Mercado
+# 📈 Comparação de Mercado
 
 | Plataforma | Organização | Gamificação | Impacto ESG | UX Emocional |
-| :--- | :---: | :---: | :---: | :---: |
-| Notion | Sim | Não | Não | Baixo |
-| Forest | Parcial | Sim | Parcial | Médio |
-| **OrganicZation** | **Sim** | **Sim** | **Sim** | **Alto** |
-[cite_start][cite: 69]
+|---|:---:|:---:|:---:|:---:|
+| Notion | ✅ | ❌ | ❌ | Baixo |
+| Forest | ⚠️ Parcial | ✅ | ⚠️ Parcial | Médio |
+| **OrganicZation** | ✅ | ✅ | ✅ | Alto |
 
 ---
-[cite_start]Desenvolvido com foco em produtividade e sustentabilidade digital. [cite: 3, 6]
+
+# 🌍 Visão do Projeto
+
+O OrganicZation não é apenas uma ferramenta de produtividade.
+
+A proposta é transformar disciplina, foco e evolução acadêmica em uma experiência visual, emocional e sustentável — criando uma conexão entre crescimento pessoal e impacto ambiental digital.
+
+---
+
+# ⚡ Tecnologias Futuras
+
+Planejamentos para evolução da plataforma:
+
+- Inteligência Artificial integrada
+- Sincronização multi-dispositivo
+- Gamificação avançada
+- Sistema de comunidade
+- Reflorestamento real baseado em metas coletivas
+
+---
+
+# 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
+<p align="center">
+  Desenvolvido com foco em produtividade, disciplina e sustentabilidade digital 🌱
+</p>
